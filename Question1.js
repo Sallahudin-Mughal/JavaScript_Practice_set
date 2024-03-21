@@ -247,7 +247,7 @@ console.log(hel.split('').reverse().join(''));
 // }
 
 
-
+ 
  // Question no 50
 // let long_str = "hello i am sallahudin";
 
