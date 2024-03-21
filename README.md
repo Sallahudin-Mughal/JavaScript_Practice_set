@@ -1,1 +1,3 @@
-# JavaScript_Practice_set
+Date: 21 March 24 JavaScript Tasks
+All concepts are clear. 
+Q4,Q6,Q7,Q10,Q12,Q13,Q14,Q15,Q16,Q17,Q18,Q21,Q24,Q35,Q37,Q41,Q46,Q48,Q50,Q51,Q52,Q53,Q54,Q56
