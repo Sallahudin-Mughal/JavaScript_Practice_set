@@ -1,0 +1,27 @@
+.box{
+    border: 2px solid #a3a3a3;
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-box{
+    display: flex;
+    margin: 5px 0;
+}
+input{
+    margin: 0 5px ;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    margin: 10px;
+    height: 30px;
+    width: 70px;
+}
