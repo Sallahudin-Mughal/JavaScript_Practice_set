@@ -69,14 +69,14 @@ document.getElementById("Q7").innerHTML= checkSunday();
 // Question no 10
 
 function multiplyBy(){
-    let num1 = document.getElementsByClassName("input1").value;
-    let num2 = document.getElementsByClassName("input2").value;
+    let num1 = parseInt(document.getElementsByClassName("input1").value);
+    let num2 = parseInt(document.getElementsByClassName("input2").value);
     // let result =num1 * num2;
     document.getElementById("result").innerHTML = num1 * num2;
 }
 function divideBy(){
-    let num1 = document.getElementsByClassName("input1").value;
-    let num2 = document.getElementsByClassName("input2").value;
+    let num1 = parseInt(document.getElementsByClassName("input1").value);
+    let num2 = parseInt(document.getElementsByClassName("input2").value);
     let result =num1 / num2;
     document.getElementById("result").innerHTML = result;
 }
