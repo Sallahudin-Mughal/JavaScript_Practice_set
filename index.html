@@ -48,7 +48,38 @@
 
     <h2>Absolute difference</h2>
     <p id="Q17"></p>
+
+    <h2>Event handle section</h2>
+    <div class="menu">
+      <button id="dropdown-btn">Select city</button>
+      <ul id="dropdown-items">
+        <li class="dropdown-option">Lahore</li>
+        <li class="dropdown-option">Multan</li>
+        <li class="dropdown-option">Faisalabad</li>
+        <li class="dropdown-option">Karachi</li>
+        <li class="dropdown-option">Islamabad</li>
+      </ul>
+    </div>
+    <div>
+      <form action="" class="form" onsubmit="return validateForm()" name="myForm">
+        <p class="error"></p>
+        <div class="attribute" id="name">
+          Name: <input type="text" name="fname" placeholder="Enter Your Name">
+        </div>
+        <div class="attribute" id="contact">
+          
+          Contact: <input type="phone" name="contant" placeholder="Enter contact number">
+        </div>
+        <div class="attribute" id="email">
+          Email: <input type="email" name="email" placeholder="Enter Your Email">
+        </div>
+        <div class="attribute">
+          <button type="submit" class="register">Register</button>
+        </div>
+      </form>
+    </div>
     
-    <script src="Question-day-2.js"></script>
+    <!-- <script src="Question-day-3.js"></script> -->
+    <script src="Question-day-3-forms.js"></script>
   </body>
 </html>
