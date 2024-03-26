@@ -33,6 +33,7 @@ function check_prime(n, i) {
   return isPrime(n, i + 1);
 }
 console.log(check_prime(6, 10));
+
 // Question no 11
 function find_Array_num(arr) {
   let greater, lower;
